@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Stories on FOIStories</title>
+    <link>http://localhost/stories/</link>
+    <description>Recent content in Stories on FOIStories</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost/stories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing FOIStories</title>
+      <link>http://localhost/stories/first/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost/stories/first/</guid>
+      <description>Quick test to confirm PaperMod is working.</description>
+    </item>
+  </channel>
+</rss>
