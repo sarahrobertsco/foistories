@@ -4,31 +4,33 @@ title = "FOIStories"
 theme = "PaperMod"
 
 [taxonomies]
-  tag = "tags"
-  topic = "topics"
-  authority = "authorities"
+  tag          = "tags"
+  topic        = "topics"
+  authority    = "authorities"
   jurisdiction = "jurisdictions"
-  exemption = "exemptions"
+  exemption    = "exemptions"
 
 [params]
-  defaultTheme = "light"
+  defaultTheme      = "light"
   disableThemeToggle = true
-  mainSections = ["stories"]
+  mainSections      = ["stories"]
 
-  # ACTIVATE PROFILE MODE HOME LAYOUT
-  [params.profileMode]
-    enabled = true
-    title = "FOIStories"
-    subtitle = "FOI investigations, case files, and practical guides on how information rights work in the real world."
+[params.profileMode]
+  enabled  = true
+  title    = "FOIStories"
+  subtitle = "FOI investigations, case files, and practical guides on how information rights work in the real world."
 
-    [[params.profileMode.buttons]]
-      name = "Latest stories"
-      url = "/stories/"
+  [[params.profileMode.buttons]]
+    name = "Latest stories"
+    url  = "/stories/"
 
-    [[params.profileMode.buttons]]
-      name = "Case files"
-      url = "/cases/"
+  [[params.profileMode.buttons]]
+    name = "Case files"
+    url  = "/cases/"
 
-    [[params.profileMode.buttons]]
-      name = "Explain FOI"
-      url = "/explain-foi/"
+  [[params.profileMode.buttons]]
+    name = "Explain FOI"
+    url  = "/explain-foi/"
+
+[params.assets]
+  css = ["css/extended/custom.css"]
