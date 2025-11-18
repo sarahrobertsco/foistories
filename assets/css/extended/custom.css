@@ -1,0 +1,129 @@
+/* FOIStories base styling – inspired by Maggie Appleton + Flexoki, but custom */
+
+:root {
+  /* Palette – warm creams + crimson accent */
+  --foi-bg: #f6f5f1;          /* main page background (like Maggie's cream) */
+  --foi-bg-alt: #fcfbf7;      /* very light panels, if needed later */
+  --foi-text: #353534;        /* main text */
+  --foi-muted: #73706d;       /* meta / secondary */
+  --foi-faint: #afb0b6;       /* dividers, very soft text */
+  --foi-accent: #5f023e;      /* deep crimson */
+  --foi-accent-bright: #960462; /* brighter crimson for hover */
+
+  --foi-max-width: 44rem;     /* reading width */
+}
+
+/* Base layout */
+
+body {
+  background-color: var(--foi-bg);
+  color: var(--foi-text);
+  font-family: "Georgia", "Iowan Old Style", "Times New Roman", serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+}
+
+/* Main content column */
+
+main {
+  max-width: var(--foi-max-width);
+  margin: 4rem auto 6rem;
+  padding: 0 1.5rem;
+}
+
+/* Headings – serif, slightly dramatic but not shouty */
+
+h1, h2 {
+  font-family: "Georgia", "Iowan Old Style", "Times New Roman", serif;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+h3, h4, h5, h6 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: clamp(2.6rem, 3.2vw, 3.3rem);
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  font-size: clamp(1.8rem, 2.1vw, 2.1rem);
+  line-height: 1.2;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraph rhythm */
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem; /* ~18px ish */
+}
+
+/* Links – crimson accent with subtle hover */
+
+a {
+  color: var(--foi-accent);
+  text-decoration: none;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.2em;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  color: var(--foi-accent-bright);
+  border-bottom-color: color-mix(in srgb, var(--foi-accent-bright) 40%, transparent);
+  background-color: rgba(150, 4, 98, 0.03);
+}
+
+/* Lists */
+
+ul, ol {
+  padding-left: 1.2rem;
+}
+
+/* Home sections (“Latest stories”, “Case files”, etc.) */
+
+.home main h1 {
+  margin-bottom: 0.5rem;
+}
+
+.home main h2 {
+  margin-top: 2.5rem;
+}
+
+/* Metadata (dates, tags) – small, sans, muted */
+
+.post-meta,
+.post-meta .date,
+.post-meta .meta,
+.post-meta time,
+.meta,
+.meta a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.85rem;
+  color: var(--foi-muted);
+}
+
+/* Optional: soften horizontal rules if PaperMod uses them */
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 2.5rem 0;
+  background: var(--foi-gray-line, var(--foi-faint));
+}
