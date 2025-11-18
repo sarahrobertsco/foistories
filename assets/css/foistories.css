@@ -1,10 +1,10 @@
-/* Overall look: light, calm, readable */
+/* Soft background + readable body text */
 body {
-  background: #f7f4f0;      /* soft off-white */
-  color: #111111;           /* near-black text */
+  background: #f5f2ec;
+  color: #181818;
 }
 
-/* Links: clear but not shouty */
+/* Links: clear but calm */
 a {
   color: #264f7a;
 }
@@ -12,62 +12,40 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Main home layout */
+/* Home layout – narrow, centred column */
 .foistories-home {
   max-width: 720px;
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem;
 }
 
-/* Site intro */
+/* Tame ALL headings on the homepage */
+.foistories-home h1,
+.foistories-home h2,
+.foistories-home h3 {
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+}
+
+/* Site title on the homepage */
 .foistories-hero h1 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin: 0 0 0.5rem;
-}
-
-.foistories-hero p {
-  font-size: 1rem;
-  line-height: 1.7;
-  max-width: 40rem;
-  margin: 0 0 2.5rem;
-}
-
-/* Section headings */
-.foi-section {
-  margin-top: 2.5rem;
-}
-
-.foi-section h2 {
-  font-size: 1.15rem;
+  font-size: 1.9rem;
   font-weight: 600;
   margin: 0 0 0.75rem;
 }
 
-/* Cards / rows inside sections */
-.foi-cards {
-  display: grid;
-  gap: 0.75rem;
+/* Intro text */
+.foistories-hero p {
+  font-size: 0.98rem;
+  line-height: 1.7;
+  max-width: 40rem;
+  margin: 0 0 2.25rem;
+  color: #383838;
 }
 
-.foi-card {
-  padding: 0.5rem 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
+/* Section blocks */
+.foi-section {
+  margin-top: 2rem;
 }
 
-.foi-card:first-child {
-  border-top: none;
-}
-
-.foi-card h3 {
-  font-size: 1rem;
-  font-weight: 500;
-  margin: 0 0 0.25rem;
-}
-
-.foi-card p {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin: 0;
-  color: #555555;
-}
+.foi-sectio
