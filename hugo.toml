@@ -1,26 +1,26 @@
-baseURL = "https://foistories.netlify.app"
+baseURL = "https://foistories.netlify.app/"
 languageCode = "en-gb"
 title = "FOIStories"
 theme = "PaperMod"
 
 [taxonomies]
-  tag          = "tags"
-  topic        = "topics"
-  authority    = "authorities"
+  tag = "tags"
+  topic = "topics"
+  authority = "authorities"
   jurisdiction = "jurisdictions"
-  exemption    = "exemptions"
+  exemption = "exemptions"
 
 [params]
-  mainSections = ["stories"]
   defaultTheme = "light"
   disableThemeToggle = true
+  mainSections = ["stories"]
 
+  # ACTIVATE PROFILE MODE HOME LAYOUT
   [params.profileMode]
     enabled = true
     title = "FOIStories"
     subtitle = "FOI investigations, case files, and practical guides on how information rights work in the real world."
 
-    # Horizontal links under the subtitle
     [[params.profileMode.buttons]]
       name = "Latest stories"
       url = "/stories/"
