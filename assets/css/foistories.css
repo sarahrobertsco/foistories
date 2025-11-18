@@ -1,0 +1,39 @@
+.foistories-home {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 4rem;
+}
+
+.foistories-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.foistories-hero p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+.foi-section {
+  margin-top: 2.5rem;
+}
+
+.foi-section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.foi-cards {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.foi-card h3 {
+  margin-bottom: 0.25rem;
+}
+
+.foi-card p {
+  margin: 0;
+  line-height: 1.6;
+}

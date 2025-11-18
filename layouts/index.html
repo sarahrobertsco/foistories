@@ -1,0 +1,44 @@
+{{ define "main" }}
+<main class="foistories-home">
+  <header class="foistories-hero">
+    <h1>FOIStories</h1>
+    <p>FOI investigations, case files, and practical guides on how information rights work in the real world.</p>
+  </header>
+
+  <section class="foi-section">
+    <h2>Latest stories</h2>
+    <div class="foi-cards">
+      {{ range first 3 (where .Site.RegularPages "Section" "stories") }}
+        <article class="foi-card">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</p>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="foi-section">
+    <h2>Case files</h2>
+    <div class="foi-cards">
+      {{ range first 3 (where .Site.RegularPages "Section" "cases") }}
+        <article class="foi-card">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</p>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="foi-section">
+    <h2>Explain FOI</h2>
+    <div class="foi-cards">
+      {{ range first 3 (where .Site.RegularPages "Section" "explain") }}
+        <article class="foi-card">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</p>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+</main>
+{{ end }}

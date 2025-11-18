@@ -1,4 +1,20 @@
-baseURL = "http://localhost/"
+baseURL = "https://foistories.netlify.app"
 languageCode = "en-gb"
 title = "FOIStories"
 theme = "PaperMod"
+
+[taxonomies]
+  tag          = "tags"
+  topic        = "topics"
+  authority    = "authorities"
+  jurisdiction = "jurisdictions"
+  exemption    = "exemptions"
+
+[params]
+  # Tell PaperMod which section is your primary publication area
+  mainSections = ["stories"]
+
+  # (Optional but recommended) where to include your custom CSS overrides
+  [params.assets]
+    customCSS = ["css/foistories.css"]
+

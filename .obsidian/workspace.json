@@ -20,8 +20,93 @@
               "icon": "lucide-file",
               "title": "first"
             }
+          },
+          {
+            "id": "96bb32cca93bd178",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cases/_index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_index"
+            }
+          },
+          {
+            "id": "e0a550c8d139d56e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data/_index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_index"
+            }
+          },
+          {
+            "id": "662ae50ab79a173f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/stories/first.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "first"
+            }
+          },
+          {
+            "id": "837c405a7f324c37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Long-form.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Long-form"
+            }
+          },
+          {
+            "id": "543c97c8b7f4909e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Case.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Case"
+            }
+          },
+          {
+            "id": "0fee3c5197ca7376",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Explainer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Explainer"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -94,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/stories/first.md",
+                "file": "Explainer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +189,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for first"
+              "title": "Backlinks for Explainer"
             }
           },
           {
@@ -113,12 +198,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/stories/first.md",
+                "file": "Explainer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from first"
+              "title": "Outgoing links from Explainer"
             }
           },
           {
@@ -156,13 +241,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/stories/first.md",
+                "file": "Explainer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of first"
+              "title": "Outline of Explainer"
             }
           }
         ]
@@ -183,19 +268,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "fea36262f2c5c0ca",
+  "active": "0fee3c5197ca7376",
   "lastOpenFiles": [
+    "assets/css/foistories.css",
+    "assets/css",
+    "assets/untitled folder",
+    "layouts/index.html",
+    "Case.md",
+    "Explainer.md",
+    "Long-form.md",
+    "content/stories/first.md",
+    "data/_index.md",
+    "explain/_index.md",
+    "cases/_index.md",
+    "stories/_index.md",
+    "Untitled",
+    "stories",
+    "content/_index.md",
+    "content/stories/_index.md",
+    "explain",
+    "cases",
     "public.zip",
     "public/stories/page/1/index.html",
     "public/stories/page/1",
-    "public/stories/first/index.html",
-    "public/stories/index.xml",
-    "public/stories/page",
-    "public/stories/index.html",
-    "public/stories/first",
-    "public/stories",
-    "themes/PaperMod/theme.toml",
-    "themes/PaperMod/layouts/partials/templates/_funcs/get-page-images.html",
     "themes/PaperMod/images/screenshot.png",
     "themes/PaperMod/images/tn.png",
     "themes/PaperMod/README.md",
