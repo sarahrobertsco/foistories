@@ -15,5 +15,20 @@ theme = "PaperMod"
   defaultTheme = "light"
   disableThemeToggle = true
 
-  [params.assets]
-    customCSS = ["css/foistories.css"]
+  [params.profileMode]
+    enabled = true
+    title = "FOIStories"
+    subtitle = "FOI investigations, case files, and practical guides on how information rights work in the real world."
+
+    # Horizontal links under the subtitle
+    [[params.profileMode.buttons]]
+      name = "Latest stories"
+      url = "/stories/"
+
+    [[params.profileMode.buttons]]
+      name = "Case files"
+      url = "/cases/"
+
+    [[params.profileMode.buttons]]
+      name = "Explain FOI"
+      url = "/explain-foi/"
