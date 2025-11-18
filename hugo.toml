@@ -11,10 +11,9 @@ theme = "PaperMod"
   exemption    = "exemptions"
 
 [params]
-  # Tell PaperMod which section is your primary publication area
   mainSections = ["stories"]
+  defaultTheme = "light"
+  disableThemeToggle = true
 
-  # (Optional but recommended) where to include your custom CSS overrides
   [params.assets]
     customCSS = ["css/foistories.css"]
-
