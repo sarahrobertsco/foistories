@@ -1,20 +1,15 @@
 ---
-title: '"Mapping the Bins – How one person used FOI to fix a very ordinary, very real problem"'
+title: "Mapping the Bins – How one person used FOI to fix a very ordinary, very real problem"
 date: 2025-11-18
-summary: Request for a database of public litter bins and recycling bins in the local area
-type: case
-authority: North Warwickshire Borough Council
-jurisdiction: England
-topics:
-  - Community
-  - bins
-  - local-government
-  - rpsi
-foi_refs:
-  - litter
-draft: true
-url: https://www.whatdotheyknow.com/request/environmental_information_regula_47
+summary: "Request for a database of public litter bins and recycling bins in the local area"
+type: "case"
+authority: "North Warwickshire Borough Council"
+jurisdiction: "England"
+topics: ["Community", "bins", "local-government", "rpsi"]
+foi_refs: ["litter"]
+draft: false
 ---
+
 Kamran Ali wants to build a free app so residents of North Warwickshire can find their nearest public bin. That's it. Not a commercial venture, not a data harvesting scheme—just a straightforward civic tech project to help people dispose of their rubbish responsibly.
 
 Which sounds like exactly the kind of thing councils should be falling over themselves to support, right? Open data, community engagement, residents taking initiative to solve local problems. All the things we're supposed to want.
